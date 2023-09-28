@@ -50,7 +50,7 @@ function Projects({ collapseStyle, setCollapseStyle }) {
       <NavBar setCollapseStyle={setCollapseStyle} />
       <div
         className={`bg-slate-800 text-white px-3 pb-3 transition-all ${
-          collapseStyle ? "pt-[15vh]" : "pt-[35vh]"
+          collapseStyle ? "pt-[20vh]" : "pt-[40vh]"
         }`}
       >
         <h1 className="font-monoton border-b-2 border-slate-400 pb-2">

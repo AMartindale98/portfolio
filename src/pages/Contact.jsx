@@ -46,7 +46,7 @@ function Contact({ collapseStyle, setCollapseStyle }) {
       <NavBar setCollapseStyle={setCollapseStyle} />
       <div
         className={`bg-slate-800 pb-5 px-2 transition-all sm:h-[86.5vh] ${
-          collapseStyle ? "pt-[15vh]" : "pt-[35vh]"
+          collapseStyle ? "pt-[20vh]" : "pt-[40vh]"
         }`}
       >
         <Toaster
