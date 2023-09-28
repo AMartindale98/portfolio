@@ -11,7 +11,7 @@ function About({ collapseStyle, setCollapseStyle }) {
       <NavBar setCollapseStyle={setCollapseStyle} />
       <div
         className={`bg-slate-800 h-full w-full pt-[20vh] text-white px-3 transition-all ${
-          collapseStyle ? "pt-[20vh]" : "pt-[35vh]"
+          collapseStyle ? "pt-[20vh]" : "pt-[40vh]"
         }`}
       >
         <div className="md:flex md:justify-start lg:gap-24">
