@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Share+Tech+Mono&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-in {
+  animation: fade 1s ease-in;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    color: white;
+  }
+}
