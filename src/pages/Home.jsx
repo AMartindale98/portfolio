@@ -14,7 +14,7 @@ function Home({ collapseStyle, setCollapseStyle }) {
         }`}
       >
         <div className="text-left flex flex-col content-center flex-wrap mt-5 p-3 backdrop-blur border-y border-slate-600/50 rounded">
-          <h1 className="text-sky-200 w-fit fade-in">Hi there! I'm Ash</h1>
+          <h1 className="text-sky-200 w-fit fade-in">Hi there! I'm Ash.</h1>
           <h5 className="text-slate-200 sm:w-[400px]">
             I am a front end developer passionate about mobile-first, responsive
             websites and implementing complex, scalable logic.

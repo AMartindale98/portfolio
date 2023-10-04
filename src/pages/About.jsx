@@ -5,6 +5,15 @@ import NavBar from "../components/NavBar";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 
+/*        <Card className="!bg-slate-200 w-[325px] sm:w-[350px] m-auto">
+<Card.Title>
+<img src="/nyx-2.png" className="h-fit w-fit" />
+</Card.Title>
+<Card.Body className="text-center m-auto w-fit">
+Nyx's favorite hobby is distracting me from coding.
+</Card.Body>
+</Card> */
+
 function About({ collapseStyle, setCollapseStyle }) {
   return (
     <>
@@ -34,14 +43,6 @@ function About({ collapseStyle, setCollapseStyle }) {
               checking out a local show.
             </p>
           </div>
-          <Card className="!bg-slate-200 w-[325px] sm:w-[350px] m-auto">
-            <Card.Title>
-              <img src="/nyx-2.png" className="h-fit w-fit" />
-            </Card.Title>
-            <Card.Body className="text-center m-auto w-fit">
-              Nyx's favorite hobby is distracting me from coding.
-            </Card.Body>
-          </Card>
         </div>
         <div className="mt-5 pt-10">
           <h1 className="font-monoton text-slate-300"> Technical Skills</h1>

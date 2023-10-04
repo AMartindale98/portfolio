@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
       </Card.Title>
       <Card.Body className="!text-slate-700">
         <p className="h-3/6">{project.description}</p>
-        <div className="flex justify-center gap-5 h-3/6 items-end">
+        <div className="!flex !justify-center gap-5 h-3/6 !items-end">
           <Link to={project.link} className="text-black hover:scale-110">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ function ProjectCard({ project }) {
           </Link>
         </div>
       </Card.Body>
-      <Card.Footer className="mt-2 flex justify-center">
+      <Card.Footer className="mt-2 !flex !justify-center">
         {project.tech.map((item) => (
           <Badge bg="secondary" className="mx-2" key={item}>
             {item}
