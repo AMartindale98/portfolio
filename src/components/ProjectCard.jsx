@@ -47,9 +47,9 @@ function ProjectCard({ project }) {
           </Link>
         </div>
       </Card.Body>
-      <Card.Footer className="mt-2 !flex !justify-center">
+      <Card.Footer className="mt-2 !flex !justify-center gap-1">
         {project.tech.map((item) => (
-          <Badge bg="secondary" className="mx-2" key={item}>
+          <Badge bg="secondary" key={item}>
             {item}
           </Badge>
         ))}
