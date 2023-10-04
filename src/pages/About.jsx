@@ -23,28 +23,51 @@ function About({ collapseStyle, setCollapseStyle }) {
           collapseStyle ? "pt-[20vh]" : "pt-[40vh]"
         }`}
       >
-        <div className="md:flex md:justify-start lg:gap-24">
-          <div>
-            <h1 className="font-monoton text-slate-300">About Me</h1>
-            <p className="md:w-[50vw] xl:w-[60vw]">
-              I am a front end developer, and I love working on projects that
-              challenge me, both in logic and creativity. I prefer to build
-              websites that are responsive and mobile-first. Additionally, I
-              love creating reusable and scalable components that I can use
-              later in other projects. I enjoy working with data and love
-              finding new APIs to implement in my projects.
-            </p>
-            <p className="md:w-[50vw] xl:w-[60vw]">
-              Although coding is a passion of mine, it is not the only one I
-              have! In my free time, I enjoy playing video games, working out,
-              reading, writing, and spending time with my cat, Nyx. On the
-              weekends, you can find me eating at a new restaurant in the city,
-              looking for a good horror movie for a movie night with friends, or
-              checking out a local show.
-            </p>
-          </div>
+        <div>
+          <h1 className="font-monoton text-slate-300">About Me</h1>
+          <p className="md:w-[50vw] xl:w-[70vw]">
+            I am a front end developer, and I love working on projects that
+            challenge me, both in logic and creativity. I prefer to build
+            websites that are responsive and mobile-first. Additionally, I love
+            creating reusable and scalable components that I can use later in
+            other projects. I enjoy working with data and love finding new APIs
+            to implement in my projects.
+          </p>
+          <p className="md:w-[50vw] xl:w-[70vw]">
+            Although coding is a passion of mine, it is not the only one I have!
+            In my free time, I enjoy playing video games, working out, reading,
+            writing, and spending time with my cat, Nyx. On the weekends, you
+            can find me eating at a new restaurant in the city, looking for a
+            good horror movie for a movie night with friends, or checking out a
+            local show.
+          </p>
         </div>
-        <div className="mt-5 pt-10">
+
+        <div className="flex justify-center items-center my-32 gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            className="bi bi-code"
+            viewBox="0 0 16 16"
+          >
+            <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z" />
+          </svg>
+
+          <div className="border-1 w-[150px] sm:w-[20vw] border-slate-300"></div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            className="bi bi-code-slash"
+            viewBox="0 0 16 16"
+          >
+            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+          </svg>
+        </div>
+        <div>
           <h1 className="font-monoton text-slate-300"> Technical Skills</h1>
           <div className="sm:grid sm:grid-cols-3 sm:gap-4">
             <Card className="!bg-slate-200 p-2 my-3">
@@ -172,7 +195,31 @@ function About({ collapseStyle, setCollapseStyle }) {
             </Card>
           </div>
         </div>
-        <div className="mt-5 pt-10 flex-col flex pb-5">
+        <div className="flex justify-center items-center my-32 gap-2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            className="bi bi-code"
+            viewBox="0 0 16 16"
+          >
+            <path d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z" />
+          </svg>
+
+          <div className="border-1 w-[150px] sm:w-[20vw] border-slate-300"></div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            className="bi bi-code-slash"
+            viewBox="0 0 16 16"
+          >
+            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+          </svg>
+        </div>
+        <div className="flex-col flex pb-5">
           <h1 className="font-monoton text-slate-300">Certifications</h1>
           <a
             href="https://www.udemy.com/certificate/UC-920c4af0-3414-4c7d-b4d9-53717d850db8/"

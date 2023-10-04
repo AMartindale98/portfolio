@@ -38,7 +38,7 @@ function Footer() {
         </Link>
       </div>
 
-      <p className="text-slate-200 text-center pt-7 mb-0 pb-0">
+      <p className="text-slate-200 text-center pt-7 mb-0 pb-2">
         &copy; Ash Martindale 2023
       </p>
     </div>

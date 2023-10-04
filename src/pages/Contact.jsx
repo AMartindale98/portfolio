@@ -76,7 +76,7 @@ function Contact({ collapseStyle, setCollapseStyle }) {
           ref={form}
           onSubmit={sendEmail}
         >
-          <h3>Please fill this form out for any business inquiries</h3>
+          <h3>Please complete this form for any professional inquiries.</h3>
           <Form.Group>
             <Form.Label>Full name</Form.Label>
             <Form.Control
