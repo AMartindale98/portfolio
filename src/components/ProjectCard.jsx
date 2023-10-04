@@ -16,13 +16,16 @@ function ProjectCard({ project }) {
       <Card.Body className="!text-slate-700">
         <p className="h-3/6">{project.description}</p>
         <div className="!flex !justify-center gap-5 h-3/6 !items-end">
-          <Link to={project.link} className="text-black hover:scale-110">
+          <Link
+            to={project.link}
+            className="text-black w-[32px] hover:scale-110"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
               height="32"
               fill="currentColor"
-              className="bi bi-link w-fit"
+              className="bi bi-link"
               viewBox="0 0 16 16"
             >
               <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
