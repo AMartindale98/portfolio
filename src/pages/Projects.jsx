@@ -3,6 +3,18 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import ProjectCard from "../components/ProjectCard";
 
+const clientProjects = [
+  {
+    name: "Golden Gamers site",
+    description:
+      "A site for a charity organization to increase sponsorship and membership. Uses React and Vite, among a number of libraries such as Tailwind, Bootstrap, React Router, React Hot Toast, and React Chronos. Uses Donor Drive API for fundraising data fetching.",
+    link: "https://golden-gamers.vercel.app/",
+    gitHub: "https://github.com/AMartindale98/golden-gamers",
+    previewPic: "/homepage-screenshot.PNG",
+    tech: ["React", "Javascript", "HTML", "CSS", "Bootstrap", "Tailwind"],
+  },
+];
+
 const projects = [
   {
     name: "Bartender Buddy",
@@ -53,6 +65,14 @@ function Projects({ collapseStyle, setCollapseStyle }) {
           collapseStyle ? "pt-[20vh]" : "pt-[40vh]"
         }`}
       >
+        <h1 className="font-monoton border-b-2 border-slate-400 pb-2">
+          Client Projects
+        </h1>
+        <div className="sm:flex sm:justify-around sm:gap-2">
+          {clientProjects.map((project) => (
+            <ProjectCard project={project} key={project.name} />
+          ))}
+        </div>
         <h1 className="font-monoton border-b-2 border-slate-400 pb-2">
           My Projects
         </h1>
